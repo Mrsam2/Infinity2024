@@ -1,0 +1,806 @@
+@import url("https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap");
+
+* {
+  color: white;
+  font-family: "Silkscreen", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-image: url("image/bg5.png");
+  object-fit: cover;
+  background-repeat: none;
+  box-sizing: border-box;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+section {
+  height: 46rem;
+  width: 100%;
+  display: flex;
+  padding: 1px;
+}
+
+header {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Event_Alignment {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.Event_Alignment > div {
+  padding: 1.5rem;
+  margin: 0;
+  text-align: center;
+}
+
+.Event_Conitainer {
+  width: 80%;
+  overflow-x: hidden;
+}
+
+.Event_Title::before {
+  content: "Events";
+  text-transform: uppercase;
+}
+
+.Event_No_One a::before {
+  content: "Valowarz";
+}
+.Event_No_Two a::before {
+  content: "Code Arena";
+}
+.Event_No_Three a::before {
+  content: "Escaping Ciphers";
+}
+.Event_No_Four a::before {
+  content: "Bidcas";
+}
+.Event_No_Five a::before {
+  content: "Cracken";
+}
+.Event_No_Six a::before {
+  content: "Decode Derby";
+}
+
+.Event_Pages_One {
+  margin-bottom: 20px;
+}
+
+.Event_Pages {
+  height: 100%;
+  width: 100%;
+}
+
+.Event_name_logo {
+  padding-left: 4rem;
+  display: flex;
+  align-items: center;
+  height: 10rem;
+  border: 1px solid white;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-top-color: transparent;
+}
+
+.Event_logo {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.Event_name {
+  margin-left: 2rem;
+  height: 2rem;
+}
+
+.Event_Discription {
+  display: flex;
+  justify-content: end;
+}
+
+.Event_Details {
+  width: 100%;
+  padding: 20px;
+}
+
+.Event_Images {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 20px;
+  border: 1px solid white;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+  border-top-color: white;
+  padding: 20px;
+}
+
+.Event_Images h4 {
+  font-family: "Silkscreen", sans-serif;
+  text-transform: uppercase;
+  font-size: medium;
+}
+
+.Event_Images > div {
+  height: 270px;
+  width: 200px;
+}
+
+/*Images*/
+
+.Valowerz_One {
+  background-image: url("image/co&co/13.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Valowerz_Two {
+  background-image: url("image/co&co/12.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.CodeArena_One {
+  background-image: url("image/co&co/5.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.CodeArena_Two {
+  background-image: url("image/co&co/4.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.EscapingCiphers_One {
+  background-image: url("image/co&co/10.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.EscapingCiphers_Two {
+  background-image: url("image/co&co/11.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Bidcas_One {
+  background-image: url("image/co&co/1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Bidcas_Two {
+  background-image: url("image/co&co/3.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cracken_One {
+  background-image: url("image/co&co/7.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.cracken_Two {
+  background-image: url("image/co&co/6.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Decode_Two {
+  background-image: url("image/co&co/8.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/*Buttons*/
+
+.Event_No_One a {
+  border: 2px solid #ff0000;
+  border-radius: 30px;
+  padding-left: 60px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  padding-right: 60px;
+  text-decoration: none;
+  background-color: transparent;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.Event_No_One a:hover {
+  color: white;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 1em #ff0000;
+  box-shadow: inset 0 0 2em 0 #ff0000, 0 0 2em 0 #ff0000;
+}
+
+.Event_No_One a:active {
+  background-color: #ff0000;
+}
+
+.Event_No_Two a {
+  border: 2px solid #0ff0fc;
+  border-radius: 30px;
+  text-decoration: none;
+  background-color: transparent;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.Event_No_Two a:hover {
+  color: white;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 1em #0ff0fc;
+  box-shadow: inset 0 0 2em 0 #0ff0fc, 0 0 2em 0 #0ff0fc;
+}
+
+.Event_No_Two a:active {
+  background-color: #0ff0fc;
+}
+
+.Event_No_Four a {
+  border: 2px solid #bc13fe;
+  border-radius: 30px;
+  text-decoration: none;
+  background-color: transparent;
+  padding-left: 74px;
+  padding-right: 74px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.Event_No_Four a:hover {
+  color: white;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 1em #bc13fe;
+  box-shadow: inset 0 0 2em 0 #bc13fe, 0 0 2em 0 #bc13fe;
+}
+
+.Event_No_Four a:active {
+  background-color: #bc13fe;
+}
+
+.Event_No_Five a {
+  border: 2px solid #fff01f;
+  border-radius: 30px;
+  text-decoration: none;
+  background-color: transparent;
+  padding-left: 66px;
+  padding-right: 66px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.Event_No_Five a:hover {
+  color: white;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 1em #fff01f;
+  box-shadow: inset 0 0 2em 0 #fff01f, 0 0 2em 0 #fff01f;
+}
+
+.Event_No_Five a:active {
+  background-color: #fff01f;
+}
+
+.Event_No_Six a {
+  border: 2px solid #39ff14;
+  border-radius: 30px;
+  text-decoration: none;
+  background-color: transparent;
+  padding-left: 44px;
+  padding-right: 44px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.Event_No_Six a:hover {
+  color: white;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 1em #39ff14;
+  box-shadow: inset 0 0 2em 0 #39ff14, 0 0 2em 0 #39ff14;
+}
+
+.Event_No_Six a:active {
+  background-color: #7fff00;
+}
+
+.Event_No_Three a {
+  border: 2px solid #ff5e00;
+  border-radius: 30px;
+  text-decoration: none;
+  background-color: transparent;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+
+.Event_No_Three a:hover {
+  color: white;
+  text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.3), 0 0 1em #ff5e00;
+  box-shadow: inset 0 0 2em 0 #ff5e00, 0 0 2em 0 #ff5e00;
+}
+
+.Event_No_Three a:active {
+  background-color: #ff5e00;
+}
+
+/* REGISTRATION-BUTTON */
+.btn-1 {
+  border: 2px solid #ff0000;
+  background-color: transparent;
+  border-radius: 30px;
+  margin: 20px;
+  padding: 10px;
+  a {
+    text-decoration: none;
+  }
+}
+.btn-1:hover {
+  box-shadow: 0 0 30px 1px #ff0000, inset 0 0 30px 1px #ff0000;
+  cursor: pointer;
+}
+
+.btn-2 {
+  border: 2px solid #0ff0fc;
+  background-color: transparent;
+  border-radius: 30px;
+  margin: 20px;
+  padding: 10px;
+  a {
+    text-decoration: none;
+  }
+}
+.btn-2:hover {
+  box-shadow: 0 0 30px 1px #0ff0fc, inset 0 0 30px 1px #0ff0fc;
+  cursor: pointer;
+}
+
+.btn-3 {
+  border: 2px solid #ff5e00;
+  background-color: transparent;
+  border-radius: 30px;
+  margin: 20px;
+  padding: 10px;
+  a {
+    text-decoration: none;
+  }
+}
+.btn-3:hover {
+  box-shadow: 0 0 30px 1px#ff5e00, inset 0 0 30px 1px #ff5e00;
+  cursor: pointer;
+}
+
+.btn-4 {
+  border: 2px solid #bc13fe;
+  background-color: transparent;
+  border-radius: 30px;
+  margin: 20px;
+  padding: 10px;
+  a {
+    text-decoration: none;
+  }
+}
+.btn-4:hover {
+  box-shadow: 0 0 30px 1px #bc13fe, inset 0 0 30px 1px #bc13fe;
+  cursor: pointer;
+}
+
+.btn-5 {
+  border: 2px solid #fff01f;
+  background-color: transparent;
+  border-radius: 30px;
+  margin: 20px;
+  padding: 10px;
+  a {
+    text-decoration: none;
+  }
+}
+.btn-5:hover {
+  box-shadow: 0 0 30px 1px #fff01f, inset 0 0 30px 1px #fff01f;
+  cursor: pointer;
+}
+
+.btn-6 {
+  border: 2px solid #39ff14;
+  background-color: transparent;
+  border-radius: 30px;
+  margin: 20px;
+  padding: 10px;
+  a {
+    text-decoration: none;
+  }
+}
+.btn-6:hover {
+  box-shadow: 0 0 30px 1px #39ff14, inset 0 0 30px 1px #39ff14;
+  cursor: pointer;
+}
+
+.ValoWarz {
+  background-image: url("image/Event_Page/Valowerz.png");
+  background-size: 80%;
+  position: center;
+  background-position-x: 8px;
+  background-position-y: 6px;
+}
+
+#Bidcas {
+  background-image: url("image/Event_Page/Bidcas.jpg");
+  background-size: cover;
+}
+
+#cracken {
+  background-image: url("image/Event_Page/1.png");
+  background-size: cover;
+  background-position: center;
+}
+
+#Decode {
+  background-image: url("image/Event_Page/6.png");
+  background-size: 100%;
+  background-position: center;
+}
+
+#Arena {
+  background-color: black;
+  background-image: url("image/Event_Page/10.png");
+  background-size: 100% 100%;
+  background-position-x: 2px;
+  background-position-y: -9px;
+  background-repeat: no-repeat;
+}
+
+#Escaping {
+  background-image: url("image/Event_Page/2.png");
+  background-size: cover;
+}
+
+.Event_Pages_One,
+.Event_Pages_Two,
+.Event_Pages_Three,
+.Event_Pages_Four,
+.Event_Pages_Five,
+.Event_Pages_Six {
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+/*Media*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  section {
+    flex-direction: column;
+  }
+
+  header {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .Event_Alignment {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .Event_Alignment > div {
+    padding: 12px;
+    text-align: center;
+  }
+
+  .Event_No_One a::before {
+    content: "01";
+  }
+  .Event_No_Two a::before {
+    content: "02";
+  }
+  .Event_No_Three a::before {
+    content: "03";
+  }
+  .Event_No_Four a::before {
+    content: "04";
+  }
+  .Event_No_Five a::before {
+    content: "05";
+  }
+  .Event_No_Six a::before {
+    content: "06";
+  }
+
+  .Event_Conitainer {
+    width: 100%;
+    margin-top: 3rem;
+  }
+
+  .Event_Details {
+    width: 100%;
+  }
+
+  .Event_Images {
+    width: 100%;
+  }
+
+  .Event_No_Two a {
+    border-radius: 0px;
+    padding: 10px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+  }
+
+  .Event_No_Three a {
+    border-radius: 0px;
+    padding: 10px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+  }
+
+  .Event_No_Four a {
+    border-radius: 0px;
+    padding: 10px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+  }
+
+  .Event_No_Five a {
+    border-radius: 0px;
+    padding: 10px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+  }
+
+  .Event_No_Six a {
+    border-radius: 0px;
+    padding: 10px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+  }
+
+  .Event_No_One a {
+    border-radius: 0px;
+    padding: 10px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+  }
+
+  .Event_Alignment > div {
+    padding-top: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .Event_Details {
+    font-size: 0.875rem;
+    font-weight: 200;
+    text-align: justify;
+  }
+  
+  .Decode_One img{
+    height: 100px;
+    width: 100px;
+  }
+
+  
+.Event_Images > div {
+  height: 174px;
+  width: 130px;
+}
+}
+
+
+@media (min-width: 480px) and (max-width: 768px) {
+  section {
+    flex-direction: column;
+  }
+  header {
+    display: flex;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .Event_Alignment {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .Event_Alignment > div {
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+  }
+  .Event_Conitainer {
+    width: 100%;
+    margin-top: 5rem;
+  }
+  .Event_Details {
+    width: 100%;
+  }
+
+  .Event_No_One a::before {
+    content: "01";
+  }
+  .Event_No_Two a::before {
+    content: "02";
+  }
+  .Event_No_Three a::before {
+    content: "03";
+  }
+  .Event_No_Four a::before {
+    content: "04";
+  }
+  .Event_No_Five a::before {
+    content: "05";
+  }
+  .Event_No_Six a::before {
+    content: "06";
+  }
+
+  .Event_No_One a {
+    padding: 20px;
+  }
+
+  .Event_No_Two a {
+    border-radius: 0px;
+    padding: 10px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+  }
+
+  .Event_No_Three a {
+    border-radius: 0px;
+    padding: 10px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+  }
+
+  .Event_No_Four a {
+    border-radius: 0px;
+    padding: 10px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+  }
+
+  .Event_No_Five a {
+    border-radius: 0px;
+    padding: 10px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+  }
+
+  .Event_No_One a {
+    border-radius: 0px;
+    padding: 10px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+  }
+
+  .Event_No_Six a {
+    border-radius: 0px;
+    padding: 10px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+  }
+
+  .Event_Images {
+    width: 100%;
+  }
+
+  .Event_Images > div {
+    height: 174px;
+    width: 130px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1025px) {
+  .Event_No_Two a::before {
+    content: "Code A";
+  }
+  .Event_No_Three a::before {
+    content: "Escaping C";
+  }
+  .Event_No_Six a::before {
+    content: "Decode D";
+  }
+
+  .Event_No_One a {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .Event_No_Two a {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .Event_No_Three a {
+  padding-left: 10px;
+  padding-right: 10px;
+  }
+  .Event_No_Four a {
+  padding-left: 30px;
+  padding-right: 30px;
+  }
+  .Event_No_Five a {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .Event_No_Six a {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
